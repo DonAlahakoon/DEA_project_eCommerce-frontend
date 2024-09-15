@@ -1,0 +1,126 @@
+.imageupload-tooltip {
+  text-align: left !important;
+  font-size: 3vh;
+  margin-bottom: 1vh;
+}
+.avatar-uploader {
+  margin-top: 2vh;
+  width: 30vh !important;
+  height: 32vh;
+  align-items: center;
+  justify-content: center;
+}
+.image-tool-tip-div {
+  width: 100%;
+}
+.upload-button {
+  width: 30vh;
+  height: 32vh;
+  margin-top: 5vh;
+  border: 0;
+  background-color: #e6e6e6;
+  align-items: center;
+  margin-bottom: 3vh;
+}
+
+.upload-button:hover {
+  background-color: #b3b3b3;
+  cursor: pointer;
+}
+
+.upload-main-wrapper {
+  align-items: center !important;
+  justify-content: center !important;
+}
+.uploaded-image {
+  width: 30vh;
+  height: 32vh;
+  margin-top: 5vh;
+  border: 2px solid #e6e6e6;
+  padding: 1vh;
+  margin-bottom: 3vh;
+}
+.image-instruction {
+  font-size: 2vh;
+}
+.product-details-warpper {
+  margin-top: 8vh;
+  margin-left: 5vh;
+}
+.details-topic {
+  font-size: 4vh;
+  font-weight: bold;
+}
+.details-input {
+  margin-top: 5vh;
+}
+.number-input {
+  width: 75%;
+  height: 4vh;
+  border: 1 solid;
+  border-radius: 10;
+  padding-left: 2vh;
+  margin-bottom: 4vh;
+}
+.product-card {
+  width: 30vh;
+  margin-bottom: 2vh;
+}
+.product-empty-text {
+  text-align: center;
+}
+.slider-style {
+  overflow: auto;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+.main-div-wrapper {
+  height: 100vh;
+  width: 100%;
+}
+.edit-products-txt {
+  font-size: 4.5vh;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  margin-left: 8vh;
+}
+.image-col{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.product-name-input {
+  margin-bottom: 4vh;
+  border-color: black;
+}
+.product-description-input{
+  height: 17vh;
+  margin-bottom: 4vh;
+  border-color: black;
+}
+.product-delete-button {
+  margin-top: 5vh;
+  height: 8vh;
+  width: 40vh;
+}
+.logout-btn{
+  background: transparent;
+  color: #e6e6e6;
+  border: 0;
+  cursor: pointer;
+}
+.add-product-main-div {
+  margin-top: 2.5vh;
+}
+.add-product-text{
+  font-size: 4.5vh;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin-top: 3vh;
+}

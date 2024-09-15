@@ -1,0 +1,19 @@
+.category-list {
+    padding: 20px;
+  }
+  
+  .category-list .ant-card {
+    border-radius: 10px;
+  }
+  
+  .category-list .ant-card img {
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .new-category-btn{
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 8px;
+  }
+  

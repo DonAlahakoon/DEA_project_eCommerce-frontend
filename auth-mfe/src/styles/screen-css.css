@@ -1,0 +1,83 @@
+.user-select-card {
+  width: 700px;
+  text-align: center;
+  border-color: gray;
+  height: 190px;
+  justify-content: center;
+}
+.user-select-dropdown {
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+}
+.user-select-main-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.customer-register-card {
+  width: 65vh;
+  text-align: center;
+  background-color: gray;
+}
+.select-user-registration {
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 2vh;
+  height: 6vh;
+}
+.input-style {
+  margin-bottom: 2vh;
+}
+.password-input {
+  height: 6vh;
+}
+.register-button {
+  margin-top: 6vh;
+}
+.register-box-tip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.already-account-have {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: -10vh;
+}
+.main-div-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+/* .login-card {
+  width:fit-content;
+  text-align: center;
+  border-color: gray;
+} */
+.password-input {
+  margin-top: 2vh;
+  height: 40px;
+}
+.login-btn {
+  margin-top: 6vh;
+}
+.row-style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.column-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: -2vh;
+}
+.column-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

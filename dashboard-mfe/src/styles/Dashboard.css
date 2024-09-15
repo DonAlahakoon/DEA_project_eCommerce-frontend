@@ -1,0 +1,19 @@
+.dashboard-header {
+    background: #fff;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+  }
+  
+  .dashboard-content {
+    padding: 24px;
+    background: #fff;
+    min-height: 360px;
+  }
+  
+  .dashboard-content .ant-card {
+    text-align: center;
+  }
+  

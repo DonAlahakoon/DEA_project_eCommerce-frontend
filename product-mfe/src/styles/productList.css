@@ -1,0 +1,20 @@
+.product-list {
+    padding: 20px;
+  }
+  
+  .product-list-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .product-card {
+    min-height: 250px;
+  }
+  
+  .product-card img {
+    height: 150px;
+    object-fit: cover;
+  }
+  

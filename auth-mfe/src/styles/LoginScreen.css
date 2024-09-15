@@ -1,0 +1,42 @@
+.main-div-wrapper {
+    background-image: url('https://images.pexels.com/photos/616401/pexels-photo-616401.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .login-card {
+    width: 400px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+  
+  .login-title {
+    text-align: center;
+    color: #4CAF50; /* A green shade representing freshness */
+  }
+  
+  .login-input {
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  
+  .login-btn {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 8px;
+  }
+  
+  .login-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .login-footer {
+    margin-top: 20px;
+  }
+  
