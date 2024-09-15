@@ -1,0 +1,176 @@
+/**
+ * Owner: Demesh Fernando
+ * Last updated Date: 24 July 2024
+ * This uses to as the main container around the header nav bar.
+ */
+.footer-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #232f3e;
+}
+
+/**
+ * Owner: Demesh Fernando
+ * Last updated Date: 4 September 2024
+ * This represents the left top of the header, which is a logo of the web page.
+ */
+.footer-top {
+  font-family: "Playwrite HR Lijeva", sans-serif;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.footer-top .container-description h4,
+.footer-top .container-description li {
+  color: white;
+}
+
+.footer-top .container-description li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/**
+ * Owner: Demesh Fernando
+ * Last updated Date: 4 September 2024
+ * These are the styles related with the bottom of the header nav bar.
+ */
+.shopify-footer-bottom {
+  color: white;
+  background-color: #131a22;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+/**
+ * Owner: Demesh Fernando
+ * Last updated Date: 3 September 2024
+ * This is the right section of the nav bar. consists with the some values and other related operations.
+ */
+.shopify-header-right-section {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: end;
+}
+
+.orders-link,
+.account-name {
+  color: white;
+}
+
+.returns-text,
+.hello-text {
+  display: block;
+  font-size: 13px;
+}
+
+.orders-text,
+.account-holder-name {
+  display: block;
+  font-size: 15px;
+  font-weight: 700;
+  padding-right: 20px;
+}
+
+.cart-link {
+  color: white;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-right: 20px;
+}
+
+.cart-icon {
+  width: 50px;
+}
+
+.cart-text {
+  margin-top: 12px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.cart-quantity {
+  color: rgb(240, 136, 4);
+  font-size: 16px;
+  font-weight: 700;
+
+  position: absolute;
+  top: 2px;
+  left: 16px;
+
+  width: 26px;
+  text-align: center;
+}
+
+.shopify-account-creation-header,
+.shopify-sign-in-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+.main-body-account-creation,
+.main-body-sign-in {
+  border: 1px solid #dddddd;
+  width: 350px;
+  margin-top: 50px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.input-section {
+  margin: 40px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-section label {
+  font-weight: 600;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding: 5px;
+  font-size: 12px;
+  border-radius: 5px;
+  outline: none;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+  background-color: #e8f0fe;
+  outline: 1px solid #dddddd;
+}
+
+.continue {
+  font-weight: 600;
+  width: 100%;
+}
+
+.continue:hover {
+  cursor: pointer;
+}
+
+.shopify-account-creation-header p {
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.shopify-account-creation-header p a {
+  padding-left: 5px;
+}
